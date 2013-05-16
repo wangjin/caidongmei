@@ -1,0 +1,60 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* Download by http://www.codefans.net */
+/*初始化几个要用的标签*/
+*{	margin: 0px;	padding: 0px;	list-style: none;}
+body {	font-family: Verdana, Arial, "宋体";	font-size: 12px;	line-height: 1.7em;	color: #6F9C21;	}
+h1,h3{	font-family: "黑体";	font-size: 14px;	color: #517317;}
+h1 {	line-height: 45px;	color: #517317;	background-color: #84B726;	padding-left: 14px;}
+h2 {	font-size: 12px;	color: #fff;	background-color: #95CC2D;	text-align: center;	border: 1px solid #84B726;}
+img {	display: block; border:none;}
+
+/*全局链接样式*/
+a:link,a:visited{	color: #6D9C1F;	text-decoration: none;}
+a:active,a:hover{	color: #fff;	text-decoration: none;}
+
+/*常用的三个样式*/
+.l{	float: left;}
+.r{	float: right;}
+.c{	clear: both;	height: 0px;	overflow: hidden;}
+
+/*全局框架用*/
+#info{	margin: 0px auto; padding:10px; width:600px; height:460px;}
+#pic{	background: #B5DF63;	height: 450px;	width: 600px;	border-left: 3px solid #3B8C54;	border-right:3px solid #8CC128;	overflow: hidden;}
+
+.main{	width: 365px;}
+.sidebar{	float: right;	height: 360px;	width: 210px;	overflow: hidden;}
+.pager{	clear: both;}
+.pager p{ padding-left:15px; line-height:2.5em;}
+
+/*第一页的特殊处理*/
+#yan{	padding: 160px 0 0 50px;}
+#kai{	background-color: #3B8C54;	width: 150px;	margin: 160px 0 0 70px;	padding-left: 10px;	overflow: hidden;}
+#kai img{	display: block;	padding: 20px;	border-left: 2px solid #B5DF63;}
+
+/*相册正式开始*/
+.pic{	height: 450px;}
+.main li{	text-align: center;	float: left;	width: 120px;	margin-top: 10px;}
+.main li span{	display: block;	margin: auto;	padding: 5px;}
+.main li img{	display: block;	height: 65px;	width: 90px;	border: 1px solid #A5D845;	margin: 0 auto;	padding: 5px;	background: #fff;}
+
+/*照片上的链接样式*/
+a:link span,a:visited span{	background: #B5DF63;	border: 1px solid #B5DF63;}
+a:active span,a:hover span{	background: #95CC2D;	border: 1px solid #84B726 ;	border-top: 1px solid #FFF;	border-left: 1px solid #FFF;}
+
+.sidebar img{	padding: 5px;}
+.sidebar p{	padding: 5px 15px;}
+.sidebar span{	background: #95CC2D;	display: block;	border-top: 1px solid #95CC2D;}
+.sidebar li{	height: 360px;}
+.sidebar{	background: #fff;	margin: 15px 5px;	padding: 0 1px 1px 1px;	border: 1px solid #A5D845;	border-top:none;}
+
+/*全局定义*/
+#wrap{ margin:0 auto; width:800px; height:490px; background:#ccc}
+
+#footer{ margin:-150px auto 0 auto; width:800px;	background-color: #444;	font-family: Verdana, Arial, sans-serif;	font-size: 12px;	color: #fff;}
+
+#foot{	line-height: 1.3em;	margin: 0 auto;	height: 150px;	width: 800px;}
+
+#foot #left {	float: left;	width: 380px;	padding-top: 72px; padding-left:10px;}
+
+#foot #right {	text-align: right;	float: right;	width: 400px;	padding-top: 72px; padding-right:10px;}

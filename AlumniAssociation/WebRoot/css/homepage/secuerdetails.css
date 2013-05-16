@@ -1,0 +1,16 @@
+@charset "utf-8";
+.bxcpbj{ margin-top:7px;}
+.bxcpbj table td{ padding:5px 0px 5px 5px; font-size:13px; color:#666;}
+.detial_title{ padding:9px 15px; font-size:14px; font-weight:bold; padding-left:30px;}
+
+/*查看购物车信息*/
+.shoppCar{ margin-top:6px;}
+.carlist td{ font-size:12px; padding:6px;}
+.cartitle{ width:995px; height:49px; background:url(../Images/cartitle.png);}
+.cartext{ margin-left:60px; font-weight:bold;}
+.evencor{ background:#f4f4f4;}
+.ljzf{ padding:30px 100px;}
+
+.shoppCar table th{ background:#fff3e1; font-size:14px;}
+.ljzfzs{margin:8px 10px 0 0;}
+.trhover{ background:#FFC1A4; color:#fff;}

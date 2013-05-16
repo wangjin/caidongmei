@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.caidongmei.alumniassociation.pojo.User" table="t_user">
+		<id name="userid" column="userid" type="integer">
+			<generator class="increment"></generator>
+		</id>
+		<property name="username" column="username" type="string"></property>
+		<property name="password" column="password" type="string"></property>
+		<property name="gender" column="gender" type="string"></property>
+		<property name="major" column="major" type="string"></property>
+		<property name="cellphone" column="cellphone" type="string"></property>
+		<property name="contactaddress" column="contactaddress" type="string"></property>
+		<property name="email" column="email" type="string"></property>
+		<property name="province" column="province" type="string"></property>
+		<property name="city" column="city" type="string"></property>
+		<property name="xuehao" column="xuehao" type="string"></property>
+		<property name="graduation" column="graduation" type="string"></property>
+		<property name="identitycard" column="identitycard" type="string"></property>
+		<property name="age" column="age" type="integer"></property>
+		<property name="state" column="state" type="integer"></property>	
+		<property name="remark" column="remark" type="string"></property>
+		<property name="answerquestion" column="answerquestion" type="string"></property>
+		<property name="replyquestion" column="replyquestion" type="string"></property>
+		<property name="isjoinclass" column="isjoinclass" type="integer"></property>
+		
+		  <!--学生=班级           多对一-->
+     	 <many-to-one name="classone" column="class_id" class="com.caidongmei.alumniassociation.pojo.ClassOne"
+         cascade="all" lazy="false">
+         </many-to-one>
+          <!--学生=角色          多对一-->
+     	 <many-to-one name="role" column="role_id" class="com.caidongmei.alumniassociation.pojo.Role"
+         cascade="all" lazy="false">
+         </many-to-one>
+         
+         <!-- 用户=留言         一对多 -->
+         
+        <set name="messages" cascade="all" inverse="true" fetch="join" lazy="false">
+			<key column="user_id"></key>
+			<one-to-many class="com.caidongmei.alumniassociation.pojo.Message" />
+		</set>
+         
+	</class>
+</hibernate-mapping>

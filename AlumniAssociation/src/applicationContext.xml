@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	                    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd ">
+	                    
+	<!--  component scan  -->
+	<context:component-scan base-package="com.caidongmei.alumniassociation">
+	</context:component-scan>
+	
+	<!-- 配置数据源，这里为DBCP数据库连接池 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/db_board" />
+		<property name="username" value="root" />
+		<property name="password" value="1" />   
+	</bean>
+	<!-- 配置session工场 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<!-- 设置数据库方言 -->
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<!-- 在控制台输出SQL语句 -->
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+		<!-- 配置映射文件 -->
+		<property name="mappingResources">
+			<list>
+			   <value>com/caidongmei/alumniassociation/pojo/User.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/ClassOne.hbm.xml </value>
+               <value>com/caidongmei/alumniassociation/pojo/Role.hbm.xml</value>
+               <value>com/caidongmei/alumniassociation/pojo/ClassDept.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/News.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/BriefInformation.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/Leader.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/SchoolPhoto.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/Notice.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/ClassPhoto.hbm.xml</value>
+			   <value>com/caidongmei/alumniassociation/pojo/Photokind.hbm.xml</value>
+			    <value>com/caidongmei/alumniassociation/pojo/Message.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	<!-- 配置事务管理器 -->
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory"/>
+		</property>	
+	</bean>
+
+	<!-- 配置hibernateTemplate，将session注入 -->
+	<bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<!-- 将hibernateTemplate注入UserDao -->
+	<!-- <bean id="FileDao" class="com.caidongmei.alumniassociation.dao.FileDAO">
+		<property name="hibernateTemplate" ref="hibernateTemplate" />
+	</bean> -->
+
+</beans>

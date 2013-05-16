@@ -1,0 +1,83 @@
+@charset "utf-8";
+.area{ margin-top:8px;}
+.tydst{ padding:3px; border:1px solid #CCC;}
+.ss{ margin:8px 0px 0px 12px;width:680px; height:191px;}
+.area_title{ width:680px; height:30px; background:url(../Images/arear_titlebj.png) 0 35px no-repeat; padding-top:8px; padding-left:8px; font-family:"微软雅黑"; color:#4390c8; font-weight:bold; font-size:16px;}
+
+.area_nr{ height:auto; border-bottom:3px solid #CCC;}
+.dianinf{font-size:14px; padding:15px 20px 0px 20px;}
+.dianinf ul li{ list-style:none; font-size:12px; color:#666; line-height:22px;}
+.dianz{ padding:13px 20px 0px 20px;}
+.dz_name{ display:block; line-height:25px; font-size:12px; text-align:center;}
+
+.area_main{ margin-top:8px; height:auto;}
+.map{ width:255px; height:312px; border:1px solid #CCC;}
+.mlef{ width:362px; height:313px; border:1px solid #CCC; margin-left:8px;}
+.mlrig{width:362px; height:313px; border:1px solid #CCC; margin-left:7px;}
+
+.mleftpic img{ margin-top:3px;}
+.mleft_title{ height:30px; background:url(../Images/jianbian.png) repeat-x; width:100%}
+.dlcp{ background:url(../Images/yellow.png) 10px 7px no-repeat; padding-left:24px; color:#0166b0; line-height:30px;font-size:14px; font-weight:bold;}
+.mleft_nr{ padding:16px 13px 0px 17px;}
+.mleft_text{ font-size:12px; line-height:17px; color:#666; margin-left:9px;}
+
+.wdname{ padding:9px 26px; border-bottom:1px dotted #CCC; height:117px; width:287px; margin-left:10px; padding-bottom:16px;}
+.mgg{ margin-left:10px;}
+.zpmg{ margin-top:5px;}
+.picshow{ margin-top:8px; border:1px solid #CCC; height:200px;}
+
+/*体验店网点首页*/
+
+.linesy{ margin-top:6px;}
+.line_enter{ width:228px; height:228px; border:1px solid #CCC;}
+.contectleft{ width:495px; height:372px; border:1px solid #CCC;}
+.contectright{ width:497px; height:372px; border:1px solid #CCC; margin-left:1px;}
+.line_contect{ margin-top:8px; width:1000px;}
+.line_nr{ font-size:12px; text-indent:2em; line-height:22px; padding:20px; color:#666;}
+.linnr_mg{ margin-top:10px;}
+.zzrz{ margin-top:8px; border:1px solid #CCC; height:200px;}
+.enter_nr{ padding:3px;}
+.clinenter{ text-align:center; font-size:12px; color:#666; display:block;}
+.ma{ *padding-top:2px;}
+
+/*体验店网点分布*/
+.Networkdistribution{ width:986px; height:670px; padding:6px; border:1px solid #CCC; margin-top:6px;}
+
+/*体验店商展示*/
+.Storedisplay{ margin-top:8px;}
+.thiscity{ width:670px;}
+.citypic{ width:111px; height:41px; background:url(../Images/citybj.png) no-repeat; line-height:41px;}
+.dqmc{ margin-top:12px; width:100px; color:#FFF; font-weight:bold; margin-left:20px; font-size:12px;}
+
+.citypic .xiajt{ margin-left:30px; _margin-top:17px;}
+.Actiy{ line-height:41px; margin-left:20px; color:#666; font-size:12px;}
+.quyu{ line-height:32px; font-size:12px; border-bottom:2px solid #CCC; margin-top:5px;}
+.linhzlc{ height:250px;}
+.quyuinfom{ margin-top:10px;}
+.quyuinfom ul li{ list-style:none;}
+.infrom{ width:171px;}
+.infrom img{ margin-left:4px; margin-top:5px;}
+.quyeinf{ width:498px; height:372px;border:1px solid #0160b8; margin-top:0px; border-left:none;}
+.quyeinf2{ width:498px; height:379px; *height:380px; border:1px solid #0160b8; margin-top:0px; border-left:none;}
+.wdmc{ font-size:16px; color:#4390c8; font-family:"微软雅黑"; font-weight:bold; line-height:30px; background:#f4f4f4; padding-left:30px;}
+.fmgg{ margin-right:10px;}
+
+.wdmc_pic{ padding:26px 28px 0px 28px;}
+.wdmc_pic span a{margin-left:6px;}
+.mcmg{ margin-top:10px;}
+.bordr{border-right:1px solid #03C;}
+
+.tydhover{ background:url(../Images/tydhover.png) no-repeat; width:175p; height:128px;}
+
+/*积分确认兑换*/
+.jfconfirm{ width:1000px;margin-top:6px; font-size:12px; color:#666;}
+.yehuan{ padding:8px 40px; font-size:14px;font-weight:bold;}
+.addjf{ padding:15px 60px;}
+.newadd td{ padding:5px;}
+.newadd select{ width:110px;}
+
+/*车险基本信息*/
+.carinfo{ margin-top:6px; width:437px; margin:0 auto;}
+.carinfo td{ font-size:12px; padding:5px;}
+.nocar{ color:#F00;}
+.carinfo .carinform{ padding:5px 0px 5px 40px; background:#ECF5FF; font-size:14px;}

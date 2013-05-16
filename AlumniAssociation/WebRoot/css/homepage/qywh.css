@@ -1,0 +1,46 @@
+@charset "utf-8";
+.qywhtitle{ color:#F00; font-size:16px; font-weight:bold; margin-bottom:10px;}
+.qywhnr{ margin-bottom:10px; font-size:12px;}
+
+.news,.about_us{ margin-top:6px;}
+.abous{ line-height:20px; font-size:12px;}
+.newlist{ width:720px; border:1px solid #CCC;}
+.newlink{width:260px;}
+.listd{ height:auto;padding:10px 15px 5px 15px; border-bottom:1px dotted #CCC;}
+.wd{width:100%;}
+.listd h3{ margin:0 0 0 10px; font-size:14px;}
+.lstnr{ font-size:12px; line-height:22px; text-indent:2em; padding:5px 10px 0 10px;}
+.date{ font-size:12px; color:#999;}
+.fgzt{ margin-top:8px; border:1px solid #CCC;}
+.ggnr{ width:256px; height:200px; border:1px solid #FC3; padding:1px;}
+.bxnestitle .m2{ margin-left:125px; font-size:12px; font-weight:normal;}
+
+
+.fgzt ul{ margin:7px 0px 5px 20px;}
+.fgzt ul li{ list-style:none; background:url(../../images/homepage/smalljt.jpg) 0 7px no-repeat; padding-left:10px; line-height:21px;}
+.fgzt ul li a{ text-decoration:none; color:#666; font-size:12px;}
+.fgzt ul li a:hover{color:#FF0000;}
+
+.title{ text-align:center; font-size:20px; font-weight:bold; margin-top:10px;}
+.alg{ text-align:center; margin-top:15px;}
+.du{ margin-top:10px; background:#F3F3F3; padding:10px;}
+.heh{ height:442px;}
+.aboutL{ width:187px;}
+
+.aboutnr{ width:800px; border:1px solid #CCC;}
+.gfwm{ border:1px solid #CCC; height:500px;}
+
+.gfwm ul li{ height:35px; background:url(../../images/homepage/cdbj.png) no-repeat; border-bottom:1px solid #FFF; font-size:14px; line-height:35px; list-style:none;}
+.gfwm ul .cdbj{ height:35px; background:url(../../images/homepage/clickcdbj.png) no-repeat; border-bottom:1px solid #FFF; font-size:14px; line-height:35px; list-style:none;}
+
+.gfwm ul li a{ color:#fff; text-align:center; display:block;}
+.qywxnr{ margin-top:20px; padding:0 20px 0 20px;}
+.chose{ font-size:12px; line-height:20px; padding-bottom:20px;}
+.kezx td{ padding:5px 0;}
+.zptitle{ font-size:14px; font-weight:bold;}
+.cpyc td{ padding:5px 0 0 20px; border:none;}
+.gwzz{ font-size:14px;}
+.frinds{ margin:10px; border-bottom:1px dotted #CCC; padding-bottom:10px;}
+.frpic{ width:100px; height:100px; border:2px solid #03F;}
+.frnr{ margin:20px 10px; font-size:12px; line-height:20px; width:650px;}
+

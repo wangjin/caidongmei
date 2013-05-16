@@ -1,0 +1,57 @@
+@charset "utf-8";
+#wholeinsla{ width:1000px; margin:0 auto; height:auto;}
+#zhutil{width:1000px; height:287px; background:url(../Images/zhigou.jpg); color:#FFF; font-size:30px;}
+.zhutext{margin-top:240px; margin-left:30px; font-weight:bold;}
+#zhengyi{ width:100%; height:200px; padding:30px 0px;}
+
+.zytext{ font-size:27px; color:#F00; font-weight:bold; margin-left:10px;}
+.fontd{ font-size:17px; margin-top:6px;}
+
+#photo{ width:100%; height:165px; border:1px solid #CCC;}
+.ptitle{ background:#f1f2f2; width:100%; height:30px;}
+.pcontect ul{ margin:2px 0px 0px 50px; color:#666;}
+.pcontect ul li{ list-style:none; float:left; width:217px; font-size:15px;height:60px; line-height:60px; border-bottom:1px dotted #CCC; background:url(../Images/bluequ.gif) 0 25px no-repeat; padding-left:20px; font-size:12px;}
+.photomg{ margin-left:40px;}
+.lipeipho{ margin-top:8px; height:240px; border:1px solid #CCC;}
+.hzhbLmg{ margin-left:326px;}
+.lipeiUl{ padding:0 10px; _display:inline}
+.lipeiUl ul{margin:6px 0px 0px 35px; width:190px; _display:inline;}
+.lipeiUl ul li{ list-style:none; height:40px; line-height:40px; font-size:15px; color:#666; font-size:12px;}
+.hzhbLmgtwo{ margin-left:385px;}
+#liucheng{ height:183px; border:1px solid #CCC; margin-bottom:8px;}
+.liucnr{ height:148px;}
+.cxtitle{ background:url(../Images/yellow.png) 0 9px no-repeat;  padding-left:12px; margin-left:24px; padding-top:10px; line-height:32px; font-weight:bold;
+font-size:14px; color:#00518d;}
+.cxtitle2{ background:url(../Images/yellow.png) 0 7px no-repeat;  padding-left:12px; margin-left:24px;line-height:32px; font-weight:bold;
+font-size:14px; color:#00518d;}
+.neone{ width:500px;}
+.netwo{ width:478px;}
+
+/*车险报价*/
+.complye{ margin-bottom:8px;}
+.quto_right{ width:704px;}
+.sjcx{ width:287px; height:223px; background:url(../Images/sjcbj.png) no-repeat;}
+.sjcmg{ margin-top:75px; line-height:30px; margin-left:30px;}
+.cjmg{ margin-top:20px;}
+.sjcmg select{ width:100px;}
+.quotesnr{ border:1px solid #CCC; width:998px; margin-top:8px;}
+.choose_bxgs{width:981px; height:47px; background:url(../Images/xinbj.png) no-repeat; margin:8px auto;}
+.chose_one{  line-height:47px; padding-left:40px; font-size:16px; color:#0053a1; font-weight:bold;}
+.jule{ margin-left:40px;}
+.jule2{ margin-left:55px;}
+.bxpic{ width:193px;}
+.bxpic ul{ margin-left:10px;}
+.bxpic ul li{ list-style:none; height:82px;}
+.bxpicrig{ width:794px; height:324px; border:2px solid #008bff; border-left:none;}
+.bxtext{ margin:30px 0px 0px 30px; font-size:14px; line-height:19px; color:#666;}
+.bxtext2{margin:30px 40px 0px 0px; _display:inline; width:246px; *width:252px; }
+.ljbj{ padding:20px 25px 30px 25px; width:200px; line-height:50px; background:#f3f2f2; margin-top:5px;}
+.ljbj select{ width:85px;}
+
+.zxtk{ color:#F90; margin-bottom:10px;}
+.ljbjt{ margin-left:50px; _margin-top:20px;}
+.pos{ margin-left:8px; margin-top:8px;}
+
+.lihover{width:183px; height:82px;background:url(../Images/lihover.png) no-repeat; display:block;}
+.boright{border-right:2px solid #008bff;}
+

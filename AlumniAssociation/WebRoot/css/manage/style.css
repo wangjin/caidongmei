@@ -1,0 +1,21 @@
+
+*{margin:0px;padding:0px;font-size: 12px;font-family: "arial", "宋体","helvetica", "sans-serif"}
+html,body{height:100%;border:none; color:#666;}
+ul,li{list-style:none;margin:0px;padding:0px;font-size:12px;}
+img{border:none; clear:both;}
+a{text-decoration:none;color:#3f5d86;}
+a{outline:none; blr:expression(this.onFocus=this.blur());}
+table{font-size:12px;}
+table {
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+table td, table.th {
+	border:1px solid #ccc;
+}
+.clear{clear:both;}
+.floatLeft{float:left;width:1143px;}
+.floatRight{float:right;}
+.alignLeft{text-align:left;}
+.alignCenter{text-align:center;}
+.alignRight{text-align:right}

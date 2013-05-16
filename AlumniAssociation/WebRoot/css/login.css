@@ -1,0 +1,10 @@
+body{ font-size:12px; color:#666;}
+*{ margin:0; padding:0;}
+.Loginbj{ width:1400px; height:760px; background:url(../image/loginbj.png) no-repeat; overflow:hidden; margin:0 auto;}
+.logind{ width:580px; height:453px; background:url(../image/loginbj2.png) no-repeat; margin:150px auto;}
+.Loginbj .logind .lotab{ height:200px; color:#fff;display:inline-table; margin:141px 0 0 40px;}
+.logind table td{ padding-top:5px; font-size:14px;}
+.lotab .login{ width:143px; height:51px; background:url(../image/tjanniu.png) 0 0 no-repeat; display:block;}
+.lotab .qxiao{ width:143px; height:51px; background:url(../image/tjanniu.png) -178px 0 no-repeat; display:block;}
+
+.wd{ width:304px; height:30px; border:1px solid #CCC;}

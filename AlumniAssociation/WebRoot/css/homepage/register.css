@@ -1,0 +1,13 @@
+@charset "utf-8";
+.regist_title{ padding:20px 0;}
+.regnew{ margin-top:10px; margin-left:10px; font-size:20px; font-weight:bold; color:#406c8c;}
+.tishi{ padding:3px 0 10px 40px; background:#eaeaea; font-size:14px; color:#666;}
+.suo{ background:url(../Images/suo.png) 0 10px no-repeat; padding-left:20px; padding-top:13px;}
+.blued{ color:#5fb8fc;}
+.rig{ text-align:right;}
+.bjys td{ background:#f6f6f6; padding:10px 5px; font-size:12px; color:#666; border:none;
+}
+.inpu{ width:191px; height:25px; border:1px solid #CCC;}
+.bjys select{ width:195px;}
+.bjys .hqyzm{ margin-left:6px; margin-top:2px;}
+.duan{ width:113px;}

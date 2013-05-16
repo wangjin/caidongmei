@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document Download by http://www.codefans.net */
+/*http://www.cnblogs.com/uhome*/
+*{	margin: 0px;	padding: 0px;}
+
+html, body, #wrap{	height: 100%;}
+
+body > #wrap{	height: auto;	min-height:100%;}
+
+#info{	padding-bottom: 150px;}
+
+#footer {	clear: both;	height: 150px;	margin-top: -150px;	position: relative;}
+
+.clearfix:after{ content:".";	display: block;	clear: both;	height: 0;	visibility: hidden;}
+
+.clearfix{ display:inline-block;}
+
+* html .clearfix{ height:1%;}
+
+.clearfix{ display:block;}

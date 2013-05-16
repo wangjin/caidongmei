@@ -1,0 +1,58 @@
+BODY {font-size:12px}
+UL {PADDING: 0px; MARGIN: 0px;}
+LI {PADDING: 0px; MARGIN: 0px;}
+P {line-height:10px;}
+
+.container_pic {
+	WIDTH: 703px;
+	HEIGHT: 261px
+}
+.container_pic A IMG {
+	WIDTH: 703px;
+	HEIGHT: 261px
+}
+.container_pic IMG {
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-LEFT-STYLE: none
+}
+.td_f A IMG {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+.num {
+	POSITION: absolute;
+	WIDTH: 400px;
+	FLOAT: left;
+	TOP: 228px;
+	LEFT: 10px;
+}
+.num LI {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 24px;
+	LIST-STYLE-TYPE: none;
+	MARGIN: 3px;
+	WIDTH: 23px;
+	FONT-FAMILY: Arial;
+
+	background:url(../../images/homepage/flashbutton.gif) no-repeat -30px 0px;
+	FLOAT: left;
+	HEIGHT: 24px;
+	COLOR: #fff;
+	FONT-SIZE: 14px;
+	CURSOR: pointer;
+    *background:#333333;
+
+}
+.num LI.on {
+	LINE-HEIGHT: 24px;
+	WIDTH: 23px;
+	BACKGROUND: url(../../images/homepage/flashbutton.gif) no-repeat;
+	HEIGHT: 24px;
+	COLOR: #fff;
+	*background:#FF6600;
+}

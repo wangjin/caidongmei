@@ -1,0 +1,32 @@
+@charset "utf-8";
+.settle{ margin-top:6px; width:998px; border:1px solid #CCC; height:auto;}
+.sett_tile1{ width:978px; background:url(../Images/lipeibj.png) repeat-x; height:40px; font-size:16px; font-weight:bold; padding-left:20px; line-height:40px; border-bottom:1px solid #ccc;}
+.sett_nr{ padding:25px 26px;border-bottom:1px solid #ccc;}
+.heig{ height:80px;}
+
+.tbys{ width:998px; background:#f8f9fd;}
+ table{ margin:40px 0 40px 50px; border:none;}
+.tbys table td{ font-size:14px; color:#666; border:none; padding:3px 0;}
+.bxmc{ font-size:15px; font-weight:bold;}
+.jw{ margin-left:68px;}
+
+/*理赔指南*/
+.sett_nr2{ padding:25px 72px;border-bottom:1px solid #ccc;}
+.lplct{ padding:40px 0 40px 0; }
+.lplct2{ padding:40px 0 40px 78px; }
+.ziliao{padding:25px 52px;border-bottom:1px solid #ccc;}
+.sett_nr2 ul li{ list-style:none; font-size:14px; color:#666; line-height:28px;}
+.ziliao ul li{ list-style:decimal; font-size:14px; color:#666; line-height:25px;}
+.ziliao ul{ margin-left:40px;}
+.cina_pa ul li{ list-style:none; font-size:14px; color:#666; line-height:25px;}
+
+.cina_pa .patext{ margin-top:25px; width:223px;}
+
+.cina_pa{width:332px; border-right:1px solid #CCC;}
+.tkrs{ margin-left:50px;}
+.bornone{ border:none;}
+
+/*案例展示*/
+.case { font-size:12px; margin-left:20px; line-height:22px}
+.case1{ background-color:#f4f4f4; margin:15px 15px 15px 0px; padding:15px 15px 15px 15px;}
+#ct{ font-size:14px; font-weight:bold; margin-left:3px;}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.caidongmei.alumniassociation.pojo.ClassOne" table="t_classone">
+		<id name="classid" column="classid" type="integer">
+			<generator class="increment"></generator>
+		</id>
+		<property name="classname" column="classname" type="string"></property>
+		<property name="description" column="description" type="string"></property>
+		<property name="remark" column="remark" type="string"></property>
+	 	<property name="iscreate" column="iscreate" type="integer"></property>
+	 	<property name="entertime" column="entertime" type="string"></property>
+	 	
+	 	<property name="peoplecount" column="peoplecount" type="integer"></property>
+	 	<property name="createtime" column="createtime" type="string"></property>
+	 	
+         <!--班级=系院            多对一-->
+     	 <many-to-one name="classdept" column="classdept_id" class="com.caidongmei.alumniassociation.pojo.ClassDept"
+         cascade="all" lazy="false">
+         </many-to-one>
+         
+         <!--班级=用户          一对多-->
+          <!--<set name="users" cascade="all" inverse="true">
+			<key column="class_id"></key>
+			<one-to-many class="com.caidongmei.alumniassociation.pojo.User" />
+		</set>
+	--></class>
+</hibernate-mapping>

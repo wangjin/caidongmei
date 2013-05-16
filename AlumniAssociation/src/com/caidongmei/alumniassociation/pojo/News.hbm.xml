@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.caidongmei.alumniassociation.pojo.News" table="t_news">
+		<id name="newsid" column="newsid" type="integer">
+			<generator class="increment"></generator>
+		</id>
+		<property name="newstitle" column="newstitle" type="string"></property>
+		<property name="newscontent" column="newscontent" type="string"></property>
+		<property name="pubtime" column="pubtime" type="string"></property>		
+		<property name="browsevolume" column="browsevolume" type="integer"></property>	
+		<property name="url" column="url" type="string"></property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN" "struts-2.1.7.dtd" >
+<struts>
+	<constant name="struts.multipart.maxSize" value="10701096" />
+	<constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory" />  
+	
+	<package name="AlumniAssociation" namespace="/" extends="struts-default">
+	<global-results>
+	<result name="error">error.jsp</result>
+	</global-results>
+		<action name="File_*" method="{1}" class="com.caidongmei.alumniassociation.action.FileAction">
+			<result name="upload">admin/processbar.jsp</result>
+		</action>
+		<action name="User_*" method="{1}" class="com.caidongmei.alumniassociation.action.UserAction">
+			<result name="alldept">./user/register.jsp</result>
+			<result name="register" type="redirect">IndexBefore_getTopNews.action</result> 
+			<result name="login" type="redirect">IndexBefore_getTopNews.action</result>
+			<result name="admin">/main.jsp</result>
+			<result name="unpromise">./user/unpromise.jsp</result>
+			<result name="showusers">./user/showusers.jsp</result>
+			<result name="promise" type="redirect">User_showUsers.action</result>
+			<result name="detailuser">./user/detailuser.jsp</result>
+			
+		</action>
+		<action name="News_*" method="{1}" class="com.caidongmei.alumniassociation.action.NewsAction">
+			<result name="shownews">/shownews.jsp</result>
+			<result name="deletenews" type="redirect">News_showNews.action?currPage=1</result>
+			<result name="addnews">/shownews.jsp</result>
+			<result name="searchnews">/shownews.jsp</result>
+			<result name="searchonenews">/shownonenews.jsp</result>
+			<result name="updatenews">/updatenews.jsp</result>
+			<result name="xinwen">/xinwen.jsp</result>
+			<result name="showallnews">/showallnews.jsp</result>
+			<result name="showsearchnews">/showallnews.jsp</result>
+		    <result name="backlistnews">/backlistnews.jsp</result>
+			
+		</action>
+		<action name="Images_*" method="{1}" class="com.caidongmei.alumniassociation.action.FileUploadAction">
+			<result name="success">/main.jsp</result>	
+			<result name="updatepersonphoto">./class/homepage.jsp</result>	
+			<result name="succ">./class/homepage.jsp</result>	
+			<!-- <result name="showclassphotohomepage" type="redirect">MyClass_showClassphoto.action?selectphoto=2</result> -->
+			<result name="showclassphotohomepage">./class/homepage.jsp</result>
+	
+		
+		</action>
+		
+		<action name="IndexBefore_*" method="{1}" class="com.caidongmei.alumniassociation.action.IndexBeforeAction">
+			<result name="index">/index.jsp</result>		
+		</action>
+		
+		<action name="Brief_*" method="{1}" class="com.caidongmei.alumniassociation.action.BriefInformationAction">
+			<result name="showbrief">./admin/showbrief.jsp</result>
+			<result name="dynamicinformation">/dynamicinformation.jsp</result>
+			<result name="deletebrief" type="redirect">Brief_showBrief.action?currPage=1</result>
+			<result name="searchonebrief">./admin/updatebrief.jsp</result>
+			<result name="showbriefone">./admin/showbriefone.jsp</result>
+			<result name="showbriefonebyid">/showbriefonebyid.jsp</result>				
+		</action>
+		
+		<action name="Notice_*" method="{1}" class="com.caidongmei.alumniassociation.action.NoticeAction">
+			<result name="shownotice">./admin/shownotice.jsp</result>
+			<result name="deletenotice" type="redirect">Notice_showNotice.action?currPage=1</result>
+			<result name="searchonenotice">./admin/updatenotice.jsp</result>
+			<result name="shownoticeone">/shownoticeone.jsp</result>
+			<result name="showallnotice">/showallnotice.jsp</result>	
+			<result name="showsearchnotice">/showallnotice.jsp</result>	
+			<result name="fanhuisuoyou">/fanhuisuoyou.jsp</result>
+		</action>
+		<action name="SchoolPhoto_*" method="{1}" class="com.caidongmei.alumniassociation.action.SchoolPhotoAction">
+			<result name="showphoto">./admin/showphoto.jsp</result>
+			<result name="deletephoto" type="redirect">SchoolPhoto_showPhoto.action?currPage=1</result>
+			<result name="searchonephoto">./admin/updatephoto.jsp</result>
+		    <result name="showphotoone">./admin/showphotoone.jsp</result>
+			<result name="showphotoonebyid">/showphotoonebyid.jsp</result> 
+			 <result name="photo">photo.jsp</result>	
+		</action>
+	    <action name="MyClass_*" method="{1}" class="com.caidongmei.alumniassociation.action.MyClassAction">
+			<result name="showclass">./class/showclass.jsp</result>
+			<result name="createclass" type="redirect">MyClass_showClass.action</result>
+			<result name="applyforenterclass">../class/applyforenterclass.jsp</result>
+			<result name="haveapplyforenterclass" type="redirect">MyClass_showClass.action</result>
+			<result name="showlevelclass">./class/showlevelclass.jsp</result>
+			<result name="homepage">./class/homepage.jsp</result>
+			<result name="errorhomepage">./class/errorhomepage.jsp</result>
+			<result name="addressbook">./class/addressbook.jsp</result>
+			<result name="showclassphoto">./class/classphoto.jsp</result>
+			<result name="levelphotolist">./class/showlevelphoto.jsp</result>
+			<result name="createalbum">./class/isuploadphoto.jsp</result>
+			<result name="selectphoto">./class/uploadphoto.jsp</result>
+			<result name="selectphotoclass">./class/selectphotoclass.jsp</result>  
+			<result name="searchphone">./service/searchphone.jsp</result>  
+			<result name="searchby">./class/searchBy.jsp</result>  
+			<result name="nonesearchby">./class/nonesearchBy.jsp</result>  
+			<!-- 留言 -->
+			<result name="showmessage">./class/showmessage.jsp</result>  
+			<result name="addmessage" type="redirect">MyClass_showMessage.action</result>  
+		</action>
+	</package>
+</struts>
+
+
+

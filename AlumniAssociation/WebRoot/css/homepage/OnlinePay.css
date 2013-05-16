@@ -1,0 +1,23 @@
+@charset "utf-8";
+.gsmc{ margin-top:10px; font-weight:bold;}
+.payinf{ width:996px; height:109px; background:#f1f1f1; margin-left:2px; _display:inline;}
+.pybj{ width:965px; height:95px; background:url(../Images/paybj.png) no-repeat; margin:6px 0px 0px 15px;}
+.pybj table{ border:none;}
+.pybj td{ font-size:12px; border:none;}
+
+.paymoney{ font-size:16px; font-weight:bold; color:#F00;}
+.detial a{ color:#F00;}
+.zffs{ width:994px; height:45px; background:url(../Images/zffsbj.png) repeat-x; border:1px solid #309ed1; border-bottom:2px; margin-left:2px;}
+
+.zffs ul li{ list-style:none; float:left; line-height:45px; width:180px; border-right:1px solid #309ed1;}
+.zffs ul li a{ text-align:center; font-size:14px; display:block;}
+.paynr{width:974px; border:2px solid #309ed1; padding:30px 0px 30px 18px; margin-left:2px;}
+
+.paytabhover{ width:180px; height:46px; background:url(../Images/paytabhover.png) no-repeat; color:#fff;}
+.paynr table,.paynr table td{ border:none;}
+.tianxie{font-size:14px; font-weight:bold; padding:10px 0px 10px 40px;}
+.tianxie input{ width:170px; height:25px;}
+.payradio{ padding-right:5px;}
+.jytspz{ font-size:12px; font-weight:normal;}
+.kjzf{ height:600px;}
+

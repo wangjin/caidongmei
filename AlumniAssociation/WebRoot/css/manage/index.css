@@ -1,0 +1,75 @@
+.north{
+		border:none !important;
+		height:145px;
+	    *height:147px; overflow:hidden;background:#efeeee;
+		_height:148px;
+		}
+.bloak_line{
+	height:30px; overflow:hidden; background:#000;}
+.location{
+	height:24px; border-bottom:1px solid #cecece; background:#FFF; line-height:24px;
+	padding:0 47px;
+	color:#383838;
+	}
+.west{
+	border:none !important;
+	padding:4px 0px 0px 35px;
+	*padding:2px 0px 0px 35px;
+	width:355px;overflow:hidden;
+}
+.welc_head{ width:312px; height:11px; background:url(../images/welc_head.jpg);}
+.welc_mid{ width:312px;background:url(../images/welc_mid.jpg)  repeat-y;}
+.welc_dow{ width:312px; height:10px; background:url(../images/welc_dow.jpg);}
+.pic_png{ width:77px; float:left;}
+.vtext{ width:235px; height:auto; float:right;}
+.wel_t{ height:45px; width:227px;border-bottom:1px solid #cecece;}
+.wel_fir{ font-size:14px; font-family:"微软雅黑"; color:#ff6600; font-weight:bold;}
+.wel_two{ font-size:10px; display:block; padding:8px 0px; color:383838;}
+.wel_thr{ color:#515151; font-size:10px; font-family:"微软雅黑"; font-weight:bold;}
+.le{ margin-left:45px;}
+.cont{ color:#ff6600;}
+.mt{ margin-top:5px;}
+.bzj{ letter-spacing:8px;}
+.news_cont{ margin-top:30px; font-size:10px;}
+.bl{ font-weight:bold; font-size:14px; margin-right:5px;}
+.fou{ height:30px; width:227px; border:1px solid  #cecece; line-height:30px; border-left:none; border-right:none; margin-top:2px;}
+.tli{ font-weight:bold; color:#515151;}
+.title_bj{ height:26px;background:url(../images/title_bj.jpg) repeat-x; border-right:4px solid #cfcece; border-bottom:1px solid #FFF; *overflow:hidden;}
+.mm{ margin:0 5px 0 8px;}
+.location img{_margin:9px 0; _vertical-align:middle;}
+.counet{ border:1px solid #cecece;}
+.title_bj ul{ margin-left:18px;_margin-left:18px;}
+.title_bj ul li{ list-style:none; float:left;color:#FFF; font-weight:bold;line-height:30px; width:88px; overflow:hidden;}
+.dh{ letter-spacing:20px; *letter-spacing:22px;}
+.title_bj ul li a{ color:#FFFFFF; font-weight:bold;}
+.shu{ margin-left:18px;}
+.oned{ margin-left:0; *margin-left:14px;}
+.south{
+	border:none !important;
+	height:28px;overflow:hidden;background:url(../images/floor_bj.jpg); text-align:right; line-height:28px;
+	padding:0 30px;
+}
+.south a{
+	float:right;
+	margin:5px 10px 0 0;
+}
+.center{border:none !important;}
+.jyls{ background:url(../images/jyls.jpg); width:210px; height:30px;}
+.glpic{ float:left; width:101px; margin-top:10px;}
+.le9{ margin-left:9px;}
+.he9{ margin-top:9px; *margin-top:5px;}
+.logo{
+	width:449px;
+	height:88px;
+	background:url(../images/logo.jpg) 0 0 no-repeat;
+	margin-bottom:1px;
+	float:left;
+}
+.vmenu{ float:right; margin:58px 30px 0 0; _display:inline;}
+.vmenu ul li{ float:left; cursor:pointer;}
+.sp,.zs,.khgl,.wh{ margin-right:10px;}
+.wh{ width:80px; height:23px; background:url(../images/vcaidan.jpg) no-repeat 0 0;}
+.sp{ width:80px; height:23px; background:url(../images/vcaidan.jpg) no-repeat -90px 0;}
+.zs{width:80px; height:23px; background:url(../images/vcaidan.jpg) no-repeat -181px 0;}
+.khgl{width:80px; height:23px; background:url(../images/vcaidan.jpg) no-repeat -271px 0;}
+.tc{width:80px; height:23px; background:url(../images/vcaidan.jpg) no-repeat -360px 0;}

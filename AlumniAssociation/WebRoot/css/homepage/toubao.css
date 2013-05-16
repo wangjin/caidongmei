@@ -1,0 +1,41 @@
+@charset "utf-8";
+.toubao{ margin-top:6px; width:1000px;}
+.tbbj{ width:100%; height:36px; line-height:36px; padding-left:30px; font-size:16px; font-weight:bold; background:url(../Images/toubaobj.png) repeat-x;}
+.question{ font-size:13px; font-weight:normal; margin-left:20px; color:#666;}
+.xinhao{ color:#F00;}
+.tabone td{ font-size:12px; height:30px; padding-top:10px; border:none;}
+.tabone input,.tabfour input{ border:1px solid #CCC; height:22px; }
+.tabtwo{ margin-top:8px;}
+.last{ padding-bottom:20px;}
+.fdjcr{ padding:5px 100px; border:none; font-size:14px;}
+
+.jcf{ font-size:12px; color:#666; padding:20px 50px; border:none;}
+.tabfour td{ border:none; font-size:12px;}
+.juti{ padding:15px 0px; font-size:14px;}
+.qbrq{ padding-top:10px;}
+.tbsmqr{ width:998px; border:1px solid #ccc; height:358px; background:#fefaf2;}
+
+.tbsmqr_bt{ font-size:16px; font-weight:bold; padding:33px 33px;}
+.tbsmqr ul{ margin-left:70px;}
+.tbsmqr ul li{ list-style:decimal; line-height:22px; font-size:12px;}
+.tbsmqr{ margin-top:8px;}
+.save,.del{ line-height:30px; margin-left:10px;}
+.lastd{ font-size:14px; margin:0 auto; width:175px; margin-top:50px;}
+.wd300{ width:300px;}
+.bbxx{ padding:5px 150px; border:none; font-size:14px;}
+
+.comfirmtb{ margin-top:6px; border:1px solid #ffe1b5; height:130px; background:#fefaf2}
+.comfirm_bt{ padding:20px 0px 10px 20px; font-size:16px;font-weight:bold; color:#333}
+.comfirmtb ul{ margin-left:55px;}
+.comfirmtb ul li{ list-style:decimal; font-size:12px; line-height:20px;}
+
+.lele{ padding:10px 0px; text-align:center;}
+.zjj{ padding-left:45px;}
+.hh{ line-height:30px;}
+.tbrinf{ font-size:12px;}
+.tbrinf td{ padding:10px 5px; color:#888;}
+.bbr{ text-align:center;}
+.bj{ background:#f6f6f6;}
+.tabbe td{ padding:10px 0px; font-size:12px; color:#888;}
+.bzinf{ margin-top:8px; font-size:12px; color:#888;}
+.bzinf td{ text-align:center; padding:20px 0;}

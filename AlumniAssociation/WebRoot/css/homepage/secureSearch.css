@@ -1,0 +1,62 @@
+@charset "utf-8";
+#wholeinsla{ width:1000px; margin:0 auto; height:auto;}
+a{ text-decoration:none;}
+li{ list-style:none;}
+#searchbx{ width:100%;}
+.searbxleft{ width:234px;}
+.searbxright{ width:755px;}
+.tbzx{ width:233px; height:192px; background:url(../Images/tbzx.jpg) no-repeat;}
+.zxcaidan{ width:233px; background:url(../Images/caidanbj.jpg) repeat-y; height:auto; padding:1px;}
+.zxcaidan ul{ margin-left:1px;}
+.zxcaidan ul li{ width:230px; height:49px; background:url(../Images/slisbj.jpg) repeat-x; line-height:49px; color:#4a8dd5; font-weight:bold;}
+.zxcaidan ul li .ywbx{ display:block; background:url(../Images/06.gif) 55px 10px no-repeat; padding-left:91px;}
+.zxcaidan ul li .jkbx{ display:block; background:url(../Images/07.gif) 55px 10px no-repeat; padding-left:91px;}
+.zxcaidan ul li .lcbx{ display:block; background:url(../Images/08.gif) 55px 10px no-repeat; padding-left:91px;}
+.zxcaidan ul li .ylbx{ display:block; background:url(../Images/09.gif) 55px 10px no-repeat; padding-left:91px;}
+.zxcaidan ul li .sebx{ display:block; background:url(../Images/10.gif) 55px 10px no-repeat; padding-left:91px;}
+.zxcaidan ul li .nxbx{ display:block; background:url(../Images/11.gif) 55px 10px no-repeat; padding-left:91px;}
+.zxcaidan ul li .ttbx{ display:block; background:url(../Images/12.gif) 55px 10px no-repeat; padding-left:91px;}
+.zxcaidan ul li .rsbx{ display:block; background:url(../Images/13.gif) 55px 10px no-repeat; padding-left:91px;}
+.ywy{_overflow:hidden;}
+.smywx{ margin-top:10px; font-size:14px; font-weight:bold; color:#00518d; background:url(../Images/yellow.jpg) 10px 0px no-repeat;padding:0 0px 5px 22px;}
+.ywxtext{ padding:5px 20px;; color:#666; font-size:12px;}
+.dixian{ width:233px; height:86px; background:url(../Images/dianxian.jpg) no-repeat;}
+.atjss{ width:756px; height:30px; background:url(../Images/atjss.png) 0 38px no-repeat; font-size:16px; font-weight:bold; padding-top:15px;}
+.ssk{ width:756px; height:158px; background:url(../Images/ssk.jpg);}
+
+.rqtitle{ font-size:14px; color:#F90; font-weight:bold; line-height:43px;}
+.bzed{ height:36px; line-height:36px;}
+.bzqx{ height:40px; line-height:41px;}
+.tjsszit{ color:#666; margin-left:24px; font-size:12px; font-weight:normal;}
+.cplb{width:756px; height:54px; background:url(../Images/cclb.jpg) no-repeat;}
+.liebcontect{ padding:10px 26px; height:95px; border-bottom:1px dotted #000; *height:102px; _height:100px; _overflow:hidden;}
+.tpybxtext{ margin-left:20px; margin-top:6px;}
+.cxwy{ font-size:14px; color:#01518e; margin-bottom:6px; font-family:"微软雅黑"; font-weight:bold;}
+.syrq,.bxsj,.bj{ font-size:12px;color:#666; line-height:20px;}
+.toubk{ width:95px; height:60px; text-align:center;}
+.moeny{ font-size:14px; color:#F00; font-weight:900; margin:3px 0px 0px 0px;}
+.jrdb{ margin-top:12px; font-size:12px; color:#838383; font-weight:700px; text-align:center;}
+.tpypic{ margin-top:-5px;}
+.mg20{ margin-left:1px;}
+.jrdbtext{ margin-left:3px;}
+.fanye{ margin-top:10px;}
+.redline{ border-bottom:5px solid #F90;}
+
+.fanye table td{ width:36px; height:36px; text-align:center; line-height:36px; border-collapse:collapse;}
+.fanye table .upy{ width:82px;}
+.dname{ font-size:12px; margin-top:15px;}
+.blued{ color:#0097ff; font-size:12px; font-weight:bold;}
+.blued a{ color:#0097ff}
+.hm{ font-size:12px; line-height:23px;}
+.gjj{ margin-top:14px;}
+
+.rqflzt{ width:100%;}
+.ssk_nr{ margin-left:35px;}
+.rtext{ width:600px; line-height:43px; font-size:12px; margin-left:10px; _display:inline}
+.radm{ margin-top:14px; *margin-top:11px; margin-right:3px;}
+
+.linh{ line-height:35px;}
+.rdh{ margin-top:10px; *margin-top:6px;}
+
+
+

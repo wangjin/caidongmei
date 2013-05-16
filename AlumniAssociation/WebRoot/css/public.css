@@ -1,0 +1,9 @@
+@charset "utf-8";
+html,body,div{font-family:宋体,Arial; font-size:12px; margin:0 0 0 0;line-height:20px; color:#000;}
+body{ width:100%; margin:0 auto; background:url(../image/home_01.jpg) repeat-x;}
+form,ul,li,p{list-style-type:none;margin:0 0 0 0;padding:0 0 0 0;}
+li{list-style:none;}
+img{border:0px;}
+a{text-decoration:none; color:#666;}
+a:hover {text-decoration: none;}
+.clear { clear:both;}

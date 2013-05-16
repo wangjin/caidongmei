@@ -1,0 +1,44 @@
+@charset "utf-8";
+.testmain{ width:1001px; height:635px; background:url(../Images/testpepol.png); margin-top:6px;overflow:hidden;}
+.testone{ width:220px; height:74px; background:url(../Images/testimg1.png) no-repeat;margin:80px 0px 30px 500px; display:inline;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="../Images/testimg1.png");
+_background:none;}
+.danxin{ width:400px;}
+.testone p{ color:#FFF; text-align:center; margin-top:18px;}
+.why{ width:500px; margin-left:50px; display:inline;}
+.danbuy{ color:#009cb9; font-size:37px; font-weight:bold; text-indent:2em; font-family:"微软雅黑", Fixedsys}
+.testimg2{ width:329px; height:198px; background:url(../Images/testimg2.png) no-repeat; margin-top:5px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="../Images/testimg2.png");
+_background:none;}
+.testimg2 p{ font-size:28px; color:#FFF; font-weight:bold; padding:25px;}
+.begince{ width:192px; height:57px; background:url(../Images/begince.png) no-repeat; font-size:20px; color:#fff; text-align:center; line-height:57px; font-weight:bold; margin-left:28px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="../Images/begince.png");
+_background:none;}
+.handclick{ margin:-20px 0px 0px 18px; width:52px; height:75px;background:url(../Images/handchick.png) no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="../Images/handchick.png");
+_background:none;}
+.ceimg3{ width:304px; height:159px; background:url(../Images/ceimg3.png);margin:20px 65px 0 0; display:inline;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="../Images/ceimg3.png");
+_background:none;}
+.ceimg3 p{color:#fff; font-size:20px; padding:20px; text-align:center; margin-top:15px;}
+.ceimg4{ width:251px; height:131px; background:url(../Images/ceimg4.png); margin:55px 0 0 0;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="../Images/ceimg4.png");
+_background:none;}
+.ceimg4 p{color:#fff; font-size:20px; padding:20px; text-align:center; margin-top:15px;}
+
+
+
+.testbuzhou{width:1001px; height:635px; background:url(../Images/large.png); margin-top:6px;overflow:hidden;}
+.lar{ width:978px; height:555px;background:url(../Images/lar.png); margin:40px auto;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="../Images/lar.png");
+_background:none;}
+.butitle{ font-size:20px; color:#fff; font-family:"微软雅黑", Fixedsys; font-weight:bold; margin:35px 0 0 130px;}
+.bunr{ width:589px; margin:10px auto; overflow:hidden; margin-bottom:20px;}
+.listnr{width:100%; height:42px;background:url(../Images/listt.png); line-height:42px; margin-bottom:10px;}
+.bradio{ width:32px; height:30px; background:url(../Images/bradio.png); margin:7px 20px;}
+.clickbradio{ width:32px; height:30px; background:url(../Images/clickbradio.png) no-repeat; margin:7px 20px;}
+
+.buzhdian{ margin-right:160px;}
+.bh3{ margin-top:30px; margin-left:193px;}
+.fanhui{ width:125px; height:43px;background:url(../Images/seek.png) 0 0 no-repeat; color:#fff; text-align:center; margin:10px 20px 0 0}
+.resoult{ width:125px; height:43px;background:url(../Images/seek.png) -144px 0 no-repeat; color:#fff; text-align:center; margin-top:10px;}

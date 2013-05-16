@@ -1,0 +1,15 @@
+@charset "utf-8";
+.Login{ margin-top:6px;}
+.login_bg{ width:434px; height:339px; background:url(../Images/login_bj.png) no-repeat;}
+.login_bg{ margin:65px 0px 0px 31px; _display:inline;}
+.login_bg table{ margin:62px 0px 0px 74px; border:none;}
+.login_bg table td{ padding:17px 0 0px 0px; font-size:14px; color:#666; border:none; _padding:16px 0 0px 0px;}
+.login_bg table input{ width:191px; height:25px;}
+.juli{ margin-left:15px;}
+.login_bg .wd94{ width:94px;}
+.login_bg .hpage a{ color:#52a3e3;
+}
+.login_bg .remble{width:12px; height:12px; margin-left:10px;}
+.login_bg .no_wd{ padding-left:10px;}
+
+.tixing{margin-top:30px; font-size:12px; color:#888;}

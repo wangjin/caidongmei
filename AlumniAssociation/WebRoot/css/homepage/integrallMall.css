@@ -1,0 +1,53 @@
+@charset "utf-8";
+.jifensm{ width:1000px; height:74px; background:url(../Images/jifensm.png) no-repeat; font-size:14px; color:#666;}
+.yhsm{ line-height:90px; margin-left:20px;}
+.wxts{ margin-left:400px;}
+.zqjf{ border:1px solid #CCC; height:auto; margin-top:8px;}
+.releax table{ font-size:12px;}
+.reris{ color:#000; font-size:16px; font-weight:bold;}
+.releax{ margin-top:20px; height:115px; border-bottom:1px solid #CCC;}
+.jfhhl{ width:980px; margin:8px auto; margin-bottom:0;}
+.jfqj{ background:#e5e5e5; padding:8px 100px; width:780px; margin:0 auto; font-size:12px; color:#666;}
+.tpzs{ width:881px; margin:0 auto}
+.tpzs td img{ border:1px solid #CCC;}
+.spmc{ font-size:13px; color:#666; font-weight:bold; padding:5px 0px;}
+.sxjf{ font-size:12px; color:#666; padding:3px 0;}
+.tpzs table{ margin-top:30px;}
+.tpzs table .duihuan{ padding:5px 0;}
+.tpzs table .duihuan img{ border:none;}
+.kh{ height:20px;}
+.fanye{ width:150px; float:right; margin:20px 10px; color:#666; font-size:14px;}
+.tpzs .divfour .tabone table td{ border-right:none; padding:5px 0;}
+.tpzs .divfour .tabone table{ border-right:none;}
+.tpzs .divfour .tabone .last{ border:1px solid #CCC;}
+
+
+/*立即对换积分详情*/
+.jfdh{ margin-top:6px;}
+.jfdd_left{ width:340px; height:385px;border-bottom:1px solid #CCC;}
+.jfdd_right{ width:659px;}
+.jfdd_left p img{ border:1px solid #CCC;}
+
+.small{ margin:10px auto; width:280px; height:51px;}
+.small a{ margin-left:6px;}
+.smc{ margin-top:12px;}
+.smc_r{ width:120px; margin-top:5px;}
+.smcsm{ font-size:20px; font-weight:bold; color:#3d73ae}
+.jfdh_x{ line-height:28px; font-size:14px; color:#666;}
+
+.fen{ color:#F60; font-size:16px;}
+
+.dhinf{ width:100%; height:227px; border:1px solid #CCC; color:#666;}
+
+.inputd input{ width:70px; height:28px;}
+.dhtitle{ height:48px; background:#DFDFDF;line-height:48px; padding-left:30px; font-size:14px;}
+.kdhsl{ margin-right:80px;}
+.inputd{ margin-top:8px;}
+.dhinf_nr{ padding:21px 0px 21px 62px; background:#EFEFEF; height:137px;}
+.dhinf_nr ul li{ list-style:none; line-height:32px; font-size:12px;}
+.dhutwo{ margin-left:100px;}
+.bbsm{ padding:12px 76px 11px 76px; *padding-bottom:0px; border:1px solid #CCC; border-bottom:none; margin-top:16px; width:508px; margin-left:-2px; font-size:12px; line-height:27px;}
+.bbxqsm{ padding:30px 91px; border:1px solid #CCC; border-top:none; width:818px; *margin-top:-6px;}
+.bt{margin-top:7px; margin-left:2px;}
+
+.smallbj{background:url(../Images/hoverbj.png); width:46px; height:51px; display:block;}

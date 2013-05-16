@@ -1,0 +1,20 @@
+body{ font-size:12px;}
+#photorecom{margin:0px auto;width:450px;height:200px;overflow:hidden;background-image:url(../img/photorecom_bg.gif);}
+#photorecom .hd{margin:0 auto;width:100%;height:30px;overflow:hidden;}
+#photorecom .hd h2{float:left;width:200px;height:30px;line-height:20px;font-size:14px;color:#C80000;overflow:hidden;display:inline;margin-left:10px;}
+#photorecom .hd span{float:right;width:85px;height:12px;overflow:hidden;margin:9px 5px;display:inline;}
+#photorecom-index a:link,#photorecom-index a:visited,#photorecom-index a:hover{float:left;margin-right:5px;display:inline;width:12px;height:12px;background:url(../img/point.gif) 0 0 no-repeat;overflow:hidden;text-indent:-999px;text-decoration:none;}
+#photorecom-index a:hover{background-position:0 -12px;}
+#photorecom-index a.current:link,#photorecom-index a.current:visited,#photorecom-index a.current:hover{background-position:0 -24px;}
+#photorecom .bd{position:relative;z-index:1;margin:0px auto 3px;width:440px;height:162px;overflow:hidden;}
+#photorecom-list{position:absolute;z-index:2;left:0;top:0;width:2200px;height:162px;overflow:hidden;}
+#photorecom-list ul,#photorecom-list li{float:left;overflow:hidden;height:162px;}
+#photorecom-list ul{width:440px;margin:0;padding:0;}
+#photorecom-list li{width:100px;margin:0 5px;display:inline;}
+#photorecom-list dl,#photorecom-list dt,#photorecom-list dd{float:left;width:96px;margin:0 2px;display:inline;overflow:hidden;}
+#photorecom-list dt{height:96px;background-image:url(../img/photo-sample-bg.gif);display:inline;}
+#photorecom-list dt img{float:left;width:80px;height:80px;display:inline;margin:7px;}
+#photorecom-list dd{height:60px;}
+#photorecom-list dd p{margin:0;padding:0;width:100%;line-height:20px;overflow:hidden;text-align:center;font-size:12px;}
+#photorecom-list dd strong{color:#F94209;}
+.hidden{display:none;clear:both;}

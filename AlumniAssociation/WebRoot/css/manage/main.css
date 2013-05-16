@@ -1,0 +1,163 @@
+.north{
+		border:none !important;
+		height:62px;
+		background:#3976b5;
+		}
+.bloak_line{
+	height:30px; overflow:hidden; background:#000;}
+.main{ width:100%;height:84.5%;overflow-x:hidden;}
+.west{
+	border:none !important;
+	width:186px;
+}
+.welc_head{ width:312px; height:11px; background:url(../../images/welc_head.jpg);}
+.welc_mid{ width:312px;background:url(../../images/welc_mid.jpg)  repeat-y;}
+.welc_dow{ width:312px; height:10px; background:url(../../images/welc_dow.jpg);}
+.pic_png{ width:77px; float:left;}
+.vtext{ width:235px; height:auto; float:right;}
+.wel_t{ height:45px; width:227px;border-bottom:1px solid #cecece;}
+.wel_fir{ font-size:14px; font-family:"Î¢ÈíÑÅºÚ"; color:#ff6600; font-weight:bold;}
+.wel_two{ font-size:10px; display:block; padding:8px 0px; color:383838;}
+.wel_thr{ color:#515151; font-size:10px; font-family:"Î¢ÈíÑÅºÚ"; font-weight:bold;}
+.le{ margin-left:45px;}
+.cont{ color:#ff6600;}
+.mt{ margin-top:5px;}
+.bzj{ letter-spacing:8px;}
+.news_cont{ margin-top:30px; font-size:10px;}
+.bl{ font-weight:bold; font-size:14px; margin-right:5px;}
+.fou{ height:30px; width:227px; border:1px solid  #cecece; line-height:30px; border-left:none; border-right:none; margin-top:2px;}
+.tli{ font-weight:bold; color:#515151;}
+.title_bj{ height:26px;background:url(../../images/title_bj.jpg) repeat-x; border-right:4px solid #cfcece; border-bottom:1px solid #FFF; *overflow:hidden;}
+.mm{ margin:0 5px 0 8px;}
+.location img{_margin:9px 0; _vertical-align:middle;}
+.counet{ border:1px solid #cecece;}
+.title_bj ul{ margin-left:18px;_margin-left:18px;}
+.title_bj ul li{ list-style:none; float:left;color:#FFF; font-weight:bold;line-height:30px; width:88px; overflow:hidden;}
+.dh{ letter-spacing:20px; *letter-spacing:22px;}
+.title_bj ul li a{ color:#FFFFFF; font-weight:bold;}
+.shu{ margin-left:18px;}
+.oned{ margin-left:0; *margin-left:14px;}
+.south{
+	border:none !important;
+	height:38px;overflow:hidden;background:url(../../images/dwobj.png); text-align:center; line-height:38px; color:#fff;
+
+}
+.south a{
+	float:right;
+	margin:5px 10px 0 0;
+}
+.center{border:none !important;}
+.jyls{ background:url(../../images/jyls.jpg); width:210px; height:30px;}
+.glpic{ float:left; width:101px; margin-top:10px;}
+.le9{ margin-left:9px;}
+.he9{ margin-top:9px; *margin-top:5px;}
+.logo{
+	width:449px;
+	float:left;
+}
+.esc{ float:right; margin:8px 50px 0 0; _display:inline;}
+.escimg img{ margin-left:118px;}
+
+
+
+.logobj{
+ width:100%;
+ height:62px;
+ background:url(../../images/logo3.jpg) no-repeat;}
+ 
+ .escimg{ width:54px; height:24px; background:url(../../images/excit.png) no-repeat; margin-left:140px;}
+ .escimg a{ line-height:24px; text-align:center; display:block;}
+ .username{ margin-top:10px;color:#fff;}
+ .mgg{ margin-left:10px;}
+
+ .cdbj{ list-style:none; width:186px; height:38px; background:url(../../images/cdbj.png) no-repeat; margin-top:-1px;}
+ .clickcdbj{ list-style:none; width:186px; height:38px; background:url(../../images/clickcdbj.png) no-repeat; margin-top:-1px;}
+
+ .wmenu ul li a{ color:#fff; font-size:14px; text-align:center; display:block; line-height:38px; }
+.location{
+     width:100%;
+	 height:35px;
+	 background:url(../../images/locationbj.png) repeat-x;
+	 line-height:35px;
+	}
+.location span{ margin-left:20px;}
+
+.add{ width:64px; height:28px; margin:10px 0px 10px 20px; background:url(../../images/add.png) no-repeat; text-align:center; }
+.cancel{ width:64px; height:28px; margin:10px 0px 10px 20px; background:url(../../images/save.png) no-repeat; text-align:center; }
+.add a{color:#fff; font-size:14px;letter-spacing:3px; margin-left:4px; line-height:28px;}
+.tabd{ border:1px solid #CCCCCC; margin-left:20px;padding-bottom:20px;}
+.tabdinfo{ border:1px solid #CCCCCC;padding-bottom:20px; margin:20px 0px 0px 20px;}
+
+.tacaidan ul li,.tacaidan2 ul li{float:left; background:url(../../images/caidangay.png) no-repeat; width:94px; height:28px;}
+.tacaidan ul .clickd,.tacaidan2 ul .clickd{background:url(../../images/tabcaid.png) no-repeat; width:94px; height:28px; float:left;}
+.tacaidan ul .clickd a,.tacaidan2 ul .clickd a{ color:#fff;}
+.tacaidan ul li a,.tacaidan2 ul li a{ text-align:center; line-height:28px; display:block; font-size:13px; margin-top:2px; margin-left:1px;}
+.tacaidan,.tacaidan2{ height:28px; border-bottom:2px solid #1772d9;}
+
+.searchd .setab,.searchd .setab td{ margin-top:0px;  margin-left:20px; border:none;}
+.searchd .setab1,.searchd .setab1 td{ margin-top:15px;  margin-left:20px; border:none;}
+
+.borig{ border-right:1px solid #CCC;}
+.senr{ margin-left:20px;}
+.senr .tbdone{ text-align:center; font-weight:bold;}
+.tbdone td{ font-size:14px; color:#fff;font-family:"Î¢ÈíÑÅºÚ"}
+.senr .tbdtwo{ text-align:center; font-size:14px; padding:5px 5px;}
+.senr .tbdtwo td{ height:25px; line-height:25px;}
+.uedit a,.searv a{ color:#F00;}
+.searv{ margin-left:10px;}
+
+.save{ width:69px; height:29px; background:url(../../images/save.png) 0 0 no-repeat;}
+.save a,.s_earch a{ line-height:29px; text-align:center; display:block; color:#fff; font-size:14px;}
+
+.s_earch{width:69px; height:29px; background:url(../../images/save.png) -75px 0px no-repeat;}
+
+.tatomg{ margin-top:20px;}
+.tabdtwo{ border:1px solid #CCCCCC; margin-left:20px;padding-bottom:20px;}
+.tabdcp{ border:1px solid #CCCCCC; margin-left:20px; margin-bottom:8px; height:auto;}
+.savetab td, .tabdtwo .savetab{ padding:10px 0 0 0; border:none;}
+.addsave{ margin:20px 0px 0px 20px;}
+.setab select{ width:100%;}
+.setab1 select{ width:100%;}
+.setab textarea{ width:97%; height:50px;}
+.setab1 textarea{ width:97%; height:50px;}
+.tlmdtitle{ height:32px; background:#f6f5f5; margin-top:10px; line-height:32px; padding-left:30px; font-size:14px; font-weight:bold;}
+
+.block_k{ background:url(../../images/hk.png) no-repeat; margin:5px 0px 4px 1px; width:22px; height:22px;}
+.xu_k{background:url(../../images/xk.png) no-repeat;margin:5px 0px 4px 1px; width:22px; height:22px;}
+
+.seesuo{ margin-top:10px; border:none;}
+.seesuo td{ padding:8px 0; border:none;}
+
+.cxbc{ margin-right:10px; margin-top:10px;}
+.wmenu ul .pbj{ background:#f1f6ef; height:30px; line-height:30px; border-bottom:1px solid #cdcdcd; border-right:1px solid #0f6700;}
+.wmenu ul .pbjclic{ background:#e2f2dc; height:30px; line-height:30px; border-bottom:1px solid #cdcdcd; border-right:1px solid #0f6700;}
+.wmenu ul p a{ text-align:center; display:block;}
+
+
+.treven{background:#f8f8f8;}
+.trhove{background:#b9dffe;}
+.jssz{ }
+.mar_top{ margin-top:8px;}
+
+.w_one{ width:233px; height:auto; margin-left:20px;}
+.one_title{ width:218px; height:40px; background:#d3eeff; line-height:40px; padding-left:15px;}
+.one_nr{ height:128px; border:1px solid #d3eeff;}
+.one_test{ margin-top:0; *margin-top:3px; margin-left:5px;}
+.one_zt{ margin-left:10px; margin-top:10px;}
+.waikuang{ margin-top:0;}
+
+.yellow{
+background:#f0bc09;
+color:#fff;
+padding:2px 3px;
+}
+.blue{
+background:#06c;
+color:#fff;
+padding:2px 3px;
+}
+.red{
+background:#b20505;
+color:#fff;
+padding:2px 3px;
+}
